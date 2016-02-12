@@ -31,7 +31,7 @@ while not leaked:
 
     if leak_status == "No leak reported":
         print "Still not here"
-        time.sleep(60)
+        time.sleep(30)
 
     else:
         api.PostUpdate('It has arrived')
